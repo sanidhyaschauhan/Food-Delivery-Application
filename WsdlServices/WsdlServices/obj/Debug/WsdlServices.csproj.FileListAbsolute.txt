@@ -1,0 +1,32 @@
+C:\Users\hsharm39\source\repos\WsdlServices\WsdlServices\bin\WsdlServices.dll.config
+C:\Users\hsharm39\source\repos\WsdlServices\WsdlServices\bin\WsdlServices.dll
+C:\Users\hsharm39\source\repos\WsdlServices\WsdlServices\bin\WsdlServices.pdb
+C:\Users\hsharm39\source\repos\WsdlServices\WsdlServices\obj\Debug\WsdlServices.csproj.AssemblyReference.cache
+C:\Users\hsharm39\source\repos\WsdlServices\WsdlServices\obj\Debug\WsdlServices.csproj.CoreCompileInputs.cache
+C:\Users\hsharm39\source\repos\WsdlServices\WsdlServices\obj\Debug\WsdlServices.dll
+C:\Users\hsharm39\source\repos\WsdlServices\WsdlServices\obj\Debug\WsdlServices.pdb
+C:\Users\schauh28\Downloads\Project 3\Project 3\WsdlServices\WsdlServices\bin\WsdlServices.dll.config
+C:\Users\schauh28\Downloads\Project 3\Project 3\WsdlServices\WsdlServices\bin\WsdlServices.dll
+C:\Users\schauh28\Downloads\Project 3\Project 3\WsdlServices\WsdlServices\bin\WsdlServices.pdb
+C:\Users\schauh28\Downloads\Project 3\Project 3\WsdlServices\WsdlServices\obj\Debug\WsdlServices.csproj.AssemblyReference.cache
+C:\Users\schauh28\Downloads\Project 3\Project 3\WsdlServices\WsdlServices\obj\Debug\WsdlServices.csproj.CoreCompileInputs.cache
+C:\Users\schauh28\Downloads\Project 3\Project 3\WsdlServices\WsdlServices\obj\Debug\WsdlServices.dll
+C:\Users\schauh28\Downloads\Project 3\Project 3\WsdlServices\WsdlServices\obj\Debug\WsdlServices.pdb
+C:\Users\schauh28\Downloads\Project 3\Project 3\WsdlServices\WsdlServices\bin\Newtonsoft.Json.dll
+C:\Users\schauh28\Downloads\Project 3\Project 3\WsdlServices\WsdlServices\bin\Newtonsoft.Json.xml
+C:\Users\schauh28\Downloads\Project 3\Project 3\WsdlServices\WsdlServices\obj\Debug\WsdlServices.csproj.CopyComplete
+C:\Users\schauh28\Downloads\Project 3\Project 3\WsdlServices\WsdlServices\bin\Newtonsoft.Json.Bson.dll
+C:\Users\schauh28\Downloads\Project 3\Project 3\WsdlServices\WsdlServices\bin\System.Buffers.dll
+C:\Users\schauh28\Downloads\Project 3\Project 3\WsdlServices\WsdlServices\bin\System.Memory.dll
+C:\Users\schauh28\Downloads\Project 3\Project 3\WsdlServices\WsdlServices\bin\System.Net.Http.Formatting.dll
+C:\Users\schauh28\Downloads\Project 3\Project 3\WsdlServices\WsdlServices\bin\System.Numerics.Vectors.dll
+C:\Users\schauh28\Downloads\Project 3\Project 3\WsdlServices\WsdlServices\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\schauh28\Downloads\Project 3\Project 3\WsdlServices\WsdlServices\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\schauh28\Downloads\Project 3\Project 3\WsdlServices\WsdlServices\bin\Newtonsoft.Json.Bson.pdb
+C:\Users\schauh28\Downloads\Project 3\Project 3\WsdlServices\WsdlServices\bin\Newtonsoft.Json.Bson.xml
+C:\Users\schauh28\Downloads\Project 3\Project 3\WsdlServices\WsdlServices\bin\System.Buffers.xml
+C:\Users\schauh28\Downloads\Project 3\Project 3\WsdlServices\WsdlServices\bin\System.Memory.xml
+C:\Users\schauh28\Downloads\Project 3\Project 3\WsdlServices\WsdlServices\bin\System.Net.Http.Formatting.xml
+C:\Users\schauh28\Downloads\Project 3\Project 3\WsdlServices\WsdlServices\bin\System.Numerics.Vectors.xml
+C:\Users\schauh28\Downloads\Project 3\Project 3\WsdlServices\WsdlServices\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\schauh28\Downloads\Project 3\Project 3\WsdlServices\WsdlServices\bin\System.Threading.Tasks.Extensions.xml

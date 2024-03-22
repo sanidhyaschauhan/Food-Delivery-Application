@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Restaurants>
+	<Restaurant>
+		<Name>Restaurant 1</Name>
+		<Location>Location 1</Location>
+		<Menu>
+			<Item>
+				<Name>Pasta Carbonara</Name>
+				<Price>$12.99</Price>
+			</Item>
+			<Item>
+				<Name>Grilled Salmon</Name>
+				<Price>$15.50</Price>
+			</Item>
+			<Item>
+				<Name>Vegetable Stir Fry</Name>
+				<Price>$9.99</Price>
+			</Item>
+			<Item>
+				<Name>Chicken Caesar Salad</Name>
+				<Price>$10.50</Price>
+			</Item>
+		</Menu>
+	</Restaurant>
+	<Restaurant>
+		<Name>Restaurant 2</Name>
+		<Location>Location 2</Location>
+		<Menu>
+			<Item>
+				<Name>Margherita Pizza</Name>
+				<Price>$10.99</Price>
+			</Item>
+			<Item>
+				<Name>Beef Burger</Name>
+				<Price>$11.50</Price>
+			</Item>
+			<Item>
+				<Name>Shrimp Tacos</Name>
+				<Price>$12.99</Price>
+			</Item>
+		</Menu>
+	</Restaurant>
+	<Restaurant>
+		<Name>Restaurant 3</Name>
+		<Location>Location 3</Location>
+		<Menu>
+			<Item>
+				<Name>Spicy Ramen</Name>
+				<Price>$8.99</Price>
+			</Item>
+			<Item>
+				<Name>Chicken Teriyaki</Name>
+				<Price>$11.50</Price>
+			</Item>
+		</Menu>
+	</Restaurant>
+	<Restaurant>
+		<Name>Restaurant 4</Name>
+		<Location>Location 4</Location>
+		<Menu>
+			<Item>
+				<Name>Spinach Quiche</Name>
+				<Price>$7.99</Price>
+			</Item>
+			<Item>
+				<Name>Tofu Stir Fry</Name>
+				<Price>$9.50</Price>
+			</Item>
+			<Item>
+				<Name>Apple Pie</Name>
+				<Price>$5.99</Price>
+			</Item>
+		</Menu>
+	</Restaurant>
+	<Restaurant>
+		<Name>Restaurant 5</Name>
+		<Location>Location 5</Location>
+		<Menu>
+			<Item>
+				<Name>Lamb Kebab</Name>
+				<Price>$13.50</Price>
+			</Item>
+			<Item>
+				<Name>Greek Salad</Name>
+				<Price>$8.50</Price>
+			</Item>
+		</Menu>
+	</Restaurant>
+	<Restaurant>
+		<Name>Restaurant 6</Name>
+		<Location>Location 6</Location>
+		<Menu>
+			<Item>
+				<Name>Fish and Chips</Name>
+				<Price>$12.00</Price>
+			</Item>
+			<Item>
+				<Name>Chocolate Cake</Name>
+				<Price>$6.50</Price>
+			</Item>
+			<Item>
+				<Name>Caesar Wrap</Name>
+				<Price>$9.99</Price>
+			</Item>
+		</Menu>
+	</Restaurant>
+	<Restaurant>
+		<Name>Restaurant 7</Name>
+		<Location>Location 7</Location>
+		<Menu>
+			<Item>
+				<Name>Pepperoni Pizza</Name>
+				<Price>$11.99</Price>
+			</Item>
+			<Item>
+				<Name>Garlic Bread</Name>
+				<Price>$4.99</Price>
+			</Item>
+		</Menu>
+	</Restaurant>
+	<Restaurant>
+		<Name>Restaurant 8</Name>
+		<Location>Location 8</Location>
+		<Menu>
+			<Item>
+				<Name>Beef Stroganoff</Name>
+				<Price>$14.50</Price>
+			</Item>
+			<Item>
+				<Name>Caesar Salad</Name>
+				<Price>$10.00</Price>
+			</Item>
+		</Menu>
+	</Restaurant>
+	<Restaurant>
+		<Name>Restaurant 9</Name>
+		<Location>Location 9</Location>
+		<Menu>
+			<Item>
+				<Name>Veggie Burger</Name>
+				<Price>$10.99</Price>
+			</Item>
+			<Item>
+				<Name>Tomato Soup</Name>
+				<Price>$7.50</Price>
+			</Item>
+			<Item>
+				<Name>French Fries</Name>
+				<Price>$4.99</Price>
+			</Item>
+		</Menu>
+	</Restaurant>
+	<Restaurant>
+		<Name>Restaurant 10</Name>
+		<Location>Location 10</Location>
+		<Menu>
+			<Item>
+				<Name>Chicken Alfredo</Name>
+				<Price>$13.99</Price>
+			</Item>
+			<Item>
+				<Name>Mixed Berry Tart</Name>
+				<Price>$6.50</Price>
+			</Item>
+		</Menu>
+	</Restaurant>
+	<Restaurant>
+		<Name>Restaurant 11</Name>
+		<Location>Location 11</Location>
+		<Menu>
+			<Item>
+				<Name>Sweet and Sour Pork</Name>
+				<Price>$12.50</Price>
+			</Item>
+			<Item>
+				<Name>Spring Rolls</Name>
+				<Price>$5.99</Price>
+			</Item>
+		</Menu>
+	</Restaurant>
+	<Restaurant>
+		<Name>Restaurant 12</Name>
+		<Location>Location 12</Location>
+		<Menu>
+			<Item>
+				<Name>Mushroom Risotto</Name>
+				<Price>$11.00</Price>
+			</Item>
+			<Item>
+				<Name>Bruschetta</Name>
+				<Price>$8.99</Price>
+			</Item>
+			<Item>
+				<Name>Tiramisu</Name>
+				<Price>$7.00</Price>
+			</Item>
+		</Menu>
+	</Restaurant>
+	<Restaurant>
+		<Id>13</Id>
+		<Name>Restaurant 13</Name>
+		<Location>Location 13</Location>
+		<Menu>
+			<Item>
+				<Name>Baked Ziti</Name>
+				<Price>$13.50</Price>
+			</Item>
+			<Item>
+				<Name>Garlic Knots</Name>
+				<Price>$5.99</Price>
+			</Item>
+		</Menu>
+	</Restaurant>
+	<Restaurant>
+		<Id>14</Id>
+		<Name>Restaurant 14</Name>
+		<Location>Location 14</Location>
+		<Menu>
+			<Item>
+				<Name>Clam Chowder</Name>
+				<Price>$9.50</Price>
+			</Item>
+			<Item>
+				<Name>Lobster Roll</Name>
+				<Price>$19.99</Price>
+			</Item>
+		</Menu>
+	</Restaurant>
+	<Restaurant>
+		<Id>15</Id>
+		<Name>Restaurant 15</Name>
+		<Location>Location 15</Location>
+		<Menu>
+			<Item>
+				<Name>BBQ Ribs</Name>
+				<Price>$16.99</Price>
+			</Item>
+			<Item>
+				<Name>Coleslaw</Name>
+				<Price>$3.50</Price>
+			</Item>
+		</Menu>
+	</Restaurant>
+	<Restaurant>
+		<Id>16</Id>
+		<Name>Restaurant 16</Name>
+		<Location>Location 16</Location>
+		<Menu>
+			<Item>
+				<Name>Pho</Name>
+				<Price>$10.99</Price>
+			</Item>
+			<Item>
+				<Name>Spring Rolls</Name>
+				<Price>$5.99</Price>
+			</Item>
+		</Menu>
+	</Restaurant>
+	<Restaurant>
+		<Id>17</Id>
+		<Name>Restaurant 17</Name>
+		<Location>Location 17</Location>
+		<Menu>
+			<Item>
+				<Name>Chicken Biryani</Name>
+				<Price>$12.99</Price>
+			</Item>
+			<Item>
+				<Name>Naan Bread</Name>
+				<Price>$2.99</Price>
+			</Item>
+		</Menu>
+	</Restaurant>
+	<Restaurant>
+		<Id>18</Id>
+		<Name>Restaurant 18</Name>
+		<Location>Location 18</Location>
+		<Menu>
+			<Item>
+				<Name>Steak Frites</Name>
+				<Price>$22.50</Price>
+			</Item>
+			<Item>
+				<Name>Caesar Salad</Name>
+				<Price>$8.99</Price>
+			</Item>
+		</Menu>
+	</Restaurant>
+	<Restaurant>
+		<Id>19</Id>
+		<Name>Restaurant 19</Name>
+		<Location>Location 19</Location>
+		<Menu>
+			<Item>
+				<Name>Falafel Wrap</Name>
+				<Price>$9.50</Price>
+			</Item>
+			<Item>
+				<Name>Baklava</Name>
+				<Price>$4.50</Price>
+			</Item>
+		</Menu>
+	</Restaurant>
+	<Restaurant>
+		<Id>20</Id>
+		<Name>Restaurant 20</Name>
+		<Location>Location 20</Location>
+		<Menu>
+			<Item>
+				<Name>Pad Thai</Name>
+				<Price>$11.00</Price>
+			</Item>
+			<Item>
+				<Name>Green Curry</Name>
+				<Price>$13.99</Price>
+			</Item>
+		</Menu>
+	</Restaurant>
+</Restaurants>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ArrayOfOrder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Order>
+    <OrderId>o123</OrderId>
+    <CustomerName>Himanshu</CustomerName>
+    <RestaurantName>Taco Bell</RestaurantName>
+    <CustomerAddress>Brix Apartments</CustomerAddress>
+    <Amount>15</Amount>
+  </Order>
+  <Order>
+    <OrderId>o124</OrderId>
+    <CustomerName>Sanidhya</CustomerName>
+    <RestaurantName>Taco Boyz</RestaurantName>
+    <CustomerAddress>SkyWater</CustomerAddress>
+    <Amount>5</Amount>
+  </Order>
+</ArrayOfOrder>

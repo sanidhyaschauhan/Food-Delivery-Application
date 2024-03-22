@@ -1,0 +1,6 @@
+C:\Users\schauh28\source\repos\Assignment6\Assignment6dll\bin\Debug\Assignment6dll.dll
+C:\Users\schauh28\source\repos\Assignment6\Assignment6dll\bin\Debug\Assignment6dll.pdb
+C:\Users\schauh28\source\repos\Assignment6\Assignment6dll\obj\Debug\Assignment6dll.csproj.AssemblyReference.cache
+C:\Users\schauh28\source\repos\Assignment6\Assignment6dll\obj\Debug\Assignment6dll.csproj.CoreCompileInputs.cache
+C:\Users\schauh28\source\repos\Assignment6\Assignment6dll\obj\Debug\Assignment6dll.dll
+C:\Users\schauh28\source\repos\Assignment6\Assignment6dll\obj\Debug\Assignment6dll.pdb

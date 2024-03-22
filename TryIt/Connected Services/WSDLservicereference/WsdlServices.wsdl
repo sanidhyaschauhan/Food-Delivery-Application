@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="WsdlServices" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://webstrar43.fulton.asu.edu/Page6/WsdlServices.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://webstrar43.fulton.asu.edu/Page6/WsdlServices.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://webstrar43.fulton.asu.edu/Page6/WsdlServices.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://webstrar43.fulton.asu.edu/Page6/WsdlServices.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/WsdlServices" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IWsdlServices_GetMenu_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMenu" />
+  </wsdl:message>
+  <wsdl:message name="IWsdlServices_GetMenu_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMenuResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWsdlServices_AddToCart_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddToCart" />
+  </wsdl:message>
+  <wsdl:message name="IWsdlServices_AddToCart_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddToCartResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWsdlServices_ViewCart_InputMessage">
+    <wsdl:part name="parameters" element="tns:ViewCart" />
+  </wsdl:message>
+  <wsdl:message name="IWsdlServices_ViewCart_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ViewCartResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWsdlServices_GetTotalAmount_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTotalAmount" />
+  </wsdl:message>
+  <wsdl:message name="IWsdlServices_GetTotalAmount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTotalAmountResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWsdlServices_ApplyCoupon_InputMessage">
+    <wsdl:part name="parameters" element="tns:ApplyCoupon" />
+  </wsdl:message>
+  <wsdl:message name="IWsdlServices_ApplyCoupon_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ApplyCouponResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWsdlServices_PlaceOrder_InputMessage">
+    <wsdl:part name="parameters" element="tns:PlaceOrder" />
+  </wsdl:message>
+  <wsdl:message name="IWsdlServices_PlaceOrder_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PlaceOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWsdlServices_ReviewAndRate_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReviewAndRate" />
+  </wsdl:message>
+  <wsdl:message name="IWsdlServices_ReviewAndRate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReviewAndRateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWsdlServices_DoPayment_InputMessage">
+    <wsdl:part name="parameters" element="tns:DoPayment" />
+  </wsdl:message>
+  <wsdl:message name="IWsdlServices_DoPayment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DoPaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWsdlServices_NotifyPayment_InputMessage">
+    <wsdl:part name="parameters" element="tns:NotifyPayment" />
+  </wsdl:message>
+  <wsdl:message name="IWsdlServices_NotifyPayment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NotifyPaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWsdlServices_GetRestaurantsByAddress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRestaurantsByAddress" />
+  </wsdl:message>
+  <wsdl:message name="IWsdlServices_GetRestaurantsByAddress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRestaurantsByAddressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWsdlServices_StoreOrder_InputMessage">
+    <wsdl:part name="parameters" element="tns:StoreOrder" />
+  </wsdl:message>
+  <wsdl:message name="IWsdlServices_StoreOrder_OutputMessage">
+    <wsdl:part name="parameters" element="tns:StoreOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWsdlServices_LoadOrders_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadOrders" />
+  </wsdl:message>
+  <wsdl:message name="IWsdlServices_LoadOrders_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadOrdersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWsdlServices_GetDeliveryDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeliveryDetails" />
+  </wsdl:message>
+  <wsdl:message name="IWsdlServices_GetDeliveryDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeliveryDetailsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IWsdlServices">
+    <wsdl:operation name="GetMenu">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWsdlServices/GetMenu" message="tns:IWsdlServices_GetMenu_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWsdlServices/GetMenuResponse" message="tns:IWsdlServices_GetMenu_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddToCart">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWsdlServices/AddToCart" message="tns:IWsdlServices_AddToCart_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWsdlServices/AddToCartResponse" message="tns:IWsdlServices_AddToCart_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ViewCart">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWsdlServices/ViewCart" message="tns:IWsdlServices_ViewCart_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWsdlServices/ViewCartResponse" message="tns:IWsdlServices_ViewCart_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTotalAmount">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWsdlServices/GetTotalAmount" message="tns:IWsdlServices_GetTotalAmount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWsdlServices/GetTotalAmountResponse" message="tns:IWsdlServices_GetTotalAmount_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ApplyCoupon">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWsdlServices/ApplyCoupon" message="tns:IWsdlServices_ApplyCoupon_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWsdlServices/ApplyCouponResponse" message="tns:IWsdlServices_ApplyCoupon_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PlaceOrder">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWsdlServices/PlaceOrder" message="tns:IWsdlServices_PlaceOrder_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWsdlServices/PlaceOrderResponse" message="tns:IWsdlServices_PlaceOrder_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReviewAndRate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWsdlServices/ReviewAndRate" message="tns:IWsdlServices_ReviewAndRate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWsdlServices/ReviewAndRateResponse" message="tns:IWsdlServices_ReviewAndRate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DoPayment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWsdlServices/DoPayment" message="tns:IWsdlServices_DoPayment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWsdlServices/DoPaymentResponse" message="tns:IWsdlServices_DoPayment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NotifyPayment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWsdlServices/NotifyPayment" message="tns:IWsdlServices_NotifyPayment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWsdlServices/NotifyPaymentResponse" message="tns:IWsdlServices_NotifyPayment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRestaurantsByAddress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWsdlServices/GetRestaurantsByAddress" message="tns:IWsdlServices_GetRestaurantsByAddress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWsdlServices/GetRestaurantsByAddressResponse" message="tns:IWsdlServices_GetRestaurantsByAddress_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="StoreOrder">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWsdlServices/StoreOrder" message="tns:IWsdlServices_StoreOrder_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWsdlServices/StoreOrderResponse" message="tns:IWsdlServices_StoreOrder_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadOrders">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWsdlServices/LoadOrders" message="tns:IWsdlServices_LoadOrders_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWsdlServices/LoadOrdersResponse" message="tns:IWsdlServices_LoadOrders_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeliveryDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWsdlServices/GetDeliveryDetails" message="tns:IWsdlServices_GetDeliveryDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWsdlServices/GetDeliveryDetailsResponse" message="tns:IWsdlServices_GetDeliveryDetails_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IWsdlServices" type="tns:IWsdlServices">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetMenu">
+      <soap:operation soapAction="http://tempuri.org/IWsdlServices/GetMenu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddToCart">
+      <soap:operation soapAction="http://tempuri.org/IWsdlServices/AddToCart" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViewCart">
+      <soap:operation soapAction="http://tempuri.org/IWsdlServices/ViewCart" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTotalAmount">
+      <soap:operation soapAction="http://tempuri.org/IWsdlServices/GetTotalAmount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApplyCoupon">
+      <soap:operation soapAction="http://tempuri.org/IWsdlServices/ApplyCoupon" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PlaceOrder">
+      <soap:operation soapAction="http://tempuri.org/IWsdlServices/PlaceOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReviewAndRate">
+      <soap:operation soapAction="http://tempuri.org/IWsdlServices/ReviewAndRate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DoPayment">
+      <soap:operation soapAction="http://tempuri.org/IWsdlServices/DoPayment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NotifyPayment">
+      <soap:operation soapAction="http://tempuri.org/IWsdlServices/NotifyPayment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRestaurantsByAddress">
+      <soap:operation soapAction="http://tempuri.org/IWsdlServices/GetRestaurantsByAddress" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StoreOrder">
+      <soap:operation soapAction="http://tempuri.org/IWsdlServices/StoreOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadOrders">
+      <soap:operation soapAction="http://tempuri.org/IWsdlServices/LoadOrders" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeliveryDetails">
+      <soap:operation soapAction="http://tempuri.org/IWsdlServices/GetDeliveryDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WsdlServices">
+    <wsdl:port name="BasicHttpBinding_IWsdlServices" binding="tns:BasicHttpBinding_IWsdlServices">
+      <soap:address location="http://webstrar43.fulton.asu.edu/Page6/WsdlServices.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
